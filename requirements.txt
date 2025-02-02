@@ -7,20 +7,14 @@ django-extensions>=3.2.3  # Useful extensions for Django
 
 # REST API and serialization
 djangorestframework-simplejwt>=5.2.2  # For JWT-based authentication
-drf-yasg>=1.21.6  # Swagger and OpenAPI documentation for Django REST
 django-cors-headers>=4.0.0  # CORS handling for APIs
 
-# FastAPI-related packages
-fastapi>=0.95.2  # Modern and fast web framework
-uvicorn[standard]>=0.23.0  # ASGI server for FastAPI
-pydantic>=1.10.4  # Data validation and parsing (used in FastAPI)
-httpx>=0.24.1  # Async HTTP client for FastAPI
-starlette>=0.31.1  # ASGI toolkit used by FastAPI
 
 # Natural Language Processing (AI)
 transformers>=4.31.0  # Hugging Face Transformers for AI models
 torch>=2.0.0  # PyTorch for running AI models
 sentencepiece>=0.1.99  # Tokenizer library required by some models
+sentence-transformers>=2.2.2  # Sentence Transformers for sentence embeddings
 
 # Database and ORM
 sqlalchemy>=1.4,<2.0  # For database management (compatible with Django and FastAPI)
@@ -50,7 +44,6 @@ channels-redis>=4.0.0  # Redis backend for Django channels
 # Testing and development
 pytest>=7.4.0  # Python testing framework
 pytest-django>=4.5.2  # Pytest support for Django
-pytest-asyncio>=0.21.0  # Async testing for FastAPI
 factory-boy>=3.3.0  # Fixtures for testing  
 flake8>=4.0.1  # Code linter
 
